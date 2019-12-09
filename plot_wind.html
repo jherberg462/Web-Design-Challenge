@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <!-- title of page-->
-        <title>Landing Page</title>
+        <title>Latitude vs. Wind Speed</title>
         <!-- bootstrap CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- stylesheet-->
@@ -48,13 +48,41 @@
 <!--end of navbar code-->
 
 <div class='container'>
-<!--setup grid for css formatting-->
-<div class='row'>
-
-    
-</div><!-- close row tag -->
-    
-</div><!--close container tag>-->
+        <!--setup grid for css formatting-->
+        <div class='row'>
+        
+            <div class='col-12 col-md-9'>
+        <!--This row will take the entire grid on small screens and 9 of 12 columns on medium (and larger) screens-->
+        <h2>Latitude vs. Tempeture</h2>
+        <br>
+        
+        <img src='https://raw.githubusercontent.com/jherberg462/python-api-challenge/master/WeatherPy/output/latvcloud_October%2026%2C%202019.png' class='img-fluid'>
+<p>some txt</p>
+<!--add a paragraph here-->
+        </div><!--close column div tag-->
+        
+        
+        <div class='col-12 col-md-3'>
+            <h3>Visualations</h3>
+        <br>
+        <a href='plot_tempeture.html'>
+        <img src='https://raw.githubusercontent.com/jherberg462/python-api-challenge/master/WeatherPy/output/latvtemp_October%2026%2C%202019.png' class='img-fluid'>
+        </a><!--end of link tag for vs tempeture page-->
+        <a href='plot_wind.html'>
+        <img src='https://raw.githubusercontent.com/jherberg462/python-api-challenge/master/WeatherPy/output/latvcloud_October%2026%2C%202019.png' class='img-fluid'>
+        </a><!--end of link tag for vs wind speed page-->
+        <span class='border-top border-success'>
+        <a href='plot_humidity.html'>
+        <img src='https://raw.githubusercontent.com/jherberg462/python-api-challenge/master/WeatherPy/output/latvhum_October%2026%2C%202019.png' class='img-fluid img-thumbnail'>
+        </a><!-- end of link tag for vs humidity page-->
+        </span>
+        </div><!--close column tag-->
+        
+        
+        </div><!-- close row tag -->
+            
+        </div><!--close container tag>-->
+        
 
 
 
